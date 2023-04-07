@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Digital Box</title>
+    <link rel="icon" type="image/png" href="images\logo-icon.png">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>    
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Head Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light  px-5  ms-bg-dark sm-bg-dark">
+        <div class="container-fluid first">
+            <div class="col-1 header-logo ">
+               <a href="#"><img src="images/logo.png" alt="logo"></a> 
+            </div>
+            <a class="navbar-brand ps-3" href="#">DigitalBox</a>
+            <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars" id="menu-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--<span class="navbar-text align-text-bottom"">
+                    DigitalBox
+                </span>-->
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-4">
+                  <a class="nav-link active links" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link links" href="#product">Product</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link links" aria-current="page" href="#about">About Us</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link links" aria-current="page" href="#contact">Contact us</a>
+                </li>
+              </ul>
+              <!--<form class="d-flex">-->
+                <!--<button class="btn btn-outline-success" type="submit"><i class="fas fa-search" id="search-icon"></i></button>-->
+                <!--<div class="container text-center text-md-left" style="border:2px solid black;">
+                    <div class="row w-50" style="border:2px solid black;">
+                        <div class="col-lg-6 mx-auto">-->
+                            <div class="box">
+                                <input type="checkbox" id="check">
+                                <div class="search-box">
+                                    <input type="text" placeholder="Update coming soon...">
+                                    <label for="check" class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        <!--</div>
+                    </div>
+                </div>-->
+              <!--</form>-->
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- Search Form --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- Home Section -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<section class="container-fluid active_menu home pt-5" id="home">
+    <!-- Slider main container -->
+    <div class="row"><div class="col-md-3 mt-xs-5"></div></div>
+    <div class="col-md-3 mt-xs-5"></div>
+    <div class="swiper-container col-md-3 mt-xs-5">
+      <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-1.png" alt="home-1">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Water drop</h3>
+                    <span class="swipper-span-font">Droplets</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-2.png" alt="home-2">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Sea water</h3>
+                    <span class="swipper-span-font">Raining</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-3.png" alt="home-3">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Ocean Water</h3>
+                    <span class="swipper-span-font">Pacific Water</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-4.png" alt="home-4">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Sky Water</h3>
+                    <span class="swipper-span-font">Ground Water</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-5.png" alt="home-5">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Rainbow Water</h3>
+                    <span class="swipper-span-font">Water Bow</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-6.png" alt="home-6">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Space Water</h3>
+                    <span class="swipper-span-font">Star Water</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-7.png" alt="home-5">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Rainbow Water</h3>
+                    <span class="swipper-span-font">Water Bow</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-8.png" alt="home-6">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Space Water</h3>
+                    <span class="swipper-span-font">Star Water</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="images/home/home-9.png" alt="home-6">
+                </div>
+                <div class="detail">
+                    <h3 class="swipper-h3-font">Space Water</h3>
+                    <span class="swipper-span-font">Star Water</span>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!--     <div class="swiper-button-prev"></div> -->
+        <!--     <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+    <div class="row spacer-d"></div>
+    <div class="row spacer-d"></div>
+</section>
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- Product Section ------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<section id = "product" class = "active_menu py-5 product">
+
+    <div class="container py-5">
+        <div class="row pb-5 mb-4">
+            <div class="col-12 text-center mx-auto pb-5"><h5 class="text-dark product-header contain-title">Our Products</h5></div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-1.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-2.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Good product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-3.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Best product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-4.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-5.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-6.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Good product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-7.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Best product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-8.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-9.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+            <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4"><img src="images/product/product-10.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Good product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-11.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Best product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 pb-5">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                    <div class="card-body p-4">
+                        <img src="images/product/product-12.png" alt="product-img" class="img-fluid d-block mx-auto mb-3">
+                        <h5> <a href="#" class="text-dark product-coontain-font">Customize product</a></h5>
+                        <p class="small text-muted font-italic product-coontain-font">This is our product specally made by us.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star text-success"></i></li>
+                            <li class="list-inline-item m-0"><i class="fa fa-star-o text-success"></i></li>
+                        </ul>
+                        <span class = "product-coontain-font">Rs. 100</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row divisor-group">
+        <div class="col-12 py-5"></div>
+        <div class="col-12 py-5"></div>
+        <div class="col-12 py-5"></div>
+        <div class="col-md-12 col-lg-12 col-xl-12 divisor py-5">
+            <div class="row text-center text-md-left">
+                <div class="sub-divisor">
+                    <div class="divisor-image">
+                        <img src="images/product/divisor-cup.png">
+                        <div class="d-none d-lg-block my-auto">
+                            <p class="contain-title">Our Products</p>
+                        </div>
+                        <img src="images/product/divisor-jursey.png" class="d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 py-5 py-lg-3"></div>
+        <div class="col-12 py-5 py-lg-3"></div>
+        <div class="col-12 py-5 py-lg-3"></div>
+    </div>
+
+
+<!------------------------------------------------------------------------------Sub Product -------------------------------------------------------------------------------------------->
+    <div class="container sub-product">
+        <div class="row m-0 gy-4 gx-5">
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-1 sub-product-card pt-3">
+                    <img src="images/product/sub-product-1.png" alt="sub-product-1" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Stylish Chair</h1>
+                    <p class="description text-center product-coontain-font">Chairs with minimal style and Morden</p>
+                    <p class="description text-center product-coontain-font">Wwood and plastic materials</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-2 sub-product-card pt-3">
+                    <img src="images/product/sub-product-2.png" alt="sub-product-2" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Lamp</h1>
+                    <p class="description text-center product-coontain-font">Lamps with different range</p>
+                    <p class="description text-center product-coontain-font">In all colors and lamps also available</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-3 sub-product-card pt-3">
+                    <img src="images/product/sub-product-3.png" alt="sub-product-3" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Wind Chimey</h1>
+                    <p class="description text-center product-coontain-font">Pleasant sounding wind chime</p>
+                    <p class="description text-center product-coontain-font">Also available in different styles shapes </p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-4 sub-product-card pt-3">
+                    <img src="images/product/sub-product-4.png" alt="sub-product-4" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Wind Chimey</h1>
+                    <p class="description text-center product-coontain-font">Pleasant sounding wind chime</p>
+                    <p class="description text-center product-coontain-font">Also available in different styles shapes </p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-5 sub-product-card pt-3">
+                    <img src="images/product/sub-product-5.png" alt="sub-product-5" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Stylish Chair</h1>
+                    <p class="description text-center product-coontain-font">Chairs with minimal style and Morden</p>
+                    <p class="description text-center product-coontain-font">Wwood and plastic materials</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-6 sub-product-card pt-3">
+                    <img src="images/product/sub-product-6.png" alt="sub-product-6" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Lamp</h1>
+                    <p class="description text-center product-coontain-font">Lamps with different range</p>
+                    <p class="description text-center product-coontain-font">In all colors and lamps also available</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-7 sub-product-card pt-3">
+                    <img src="images/product/sub-product-7.png" alt="sub-product-7" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Lamp</h1>
+                    <p class="description text-center product-coontain-font">Lamps with different range</p>
+                    <p class="description text-center product-coontain-font">In all colors and lamps also available</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-8 sub-product-card pt-3">
+                    <img src="images/product/sub-product-8.png" alt="sub-product-8" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Wind Chimey</h1>
+                    <p class="description text-center product-coontain-font">Pleasant sounding wind chime</p>
+                    <p class="description text-center product-coontain-font">Also available in different styles shapes </p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-ms-12 col-lg-4 pb-lg-5">
+                <div class="sub-product-card-9 sub-product-card pt-3">
+                    <img src="images/product/sub-product-9.png" alt="sub-product-9" class="sub-image">
+                    <h1 class="title text-center product-coontain-font">Stylish Chair</h1>
+                    <p class="description text-center product-coontain-font">Chairs with minimal style and Morden</p>
+                    <p class="description text-center product-coontain-font">Wwood and plastic materials</p>
+                    <div class="d-flex justify-content-center circle text-center rounded-circle circle_bg mx-auto arrow">
+                        <img src="right-arrow.png" alt="right-arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- end of product -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- About Section -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<section class="about container-fluid active_menu py-5 pt-xs-5" id="about">
+    <div class="container text-center text-md-left">
+        <div class="row d-flex align-items-center justify-content-center about-pad">
+            <div class="row spacer-t"></div>
+            <div class="row first align-items-center justify-content-center pb-5">
+                <div class="col-12 text-center mx-auto">
+                    <div class="text-center text-dark pt-3 head">
+                        <h5 class="about-header contain-title">About Us</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="col-md-3 col-lg-3 col-xl-3  mt-1 w-50 text-center content contain-context"> <!--class="col-lg-3 text-center mx-auto pb-5 content"-->
+                <p>We create what you imagine. IF you can imagine we can create it. This is what we do best. Give us your imagination and we give you a creation. From simple to complex we never let don't our cilent. We may not be perfect but we are your best choice available. We provide you satisfication and happiness. Digitalbox is always present for your service. Feel free to choose us and you will never regret your decision.</p>
+            </div>
+
+
+            <div  class="col-md-12 col-lg-12 col-xl-12  mt-3">  <!--class="col-lg-8 mx-auto pb-5"-->
+                <div class="card">
+                    <div class="card-body">
+                        <!--<div class="row">-->
+                            <img src="images/about-1.png" class="img-fluid d-block mx-auto mb-3">
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- Team Section -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container py-lg-5 pt-5" id="team">
+
+        <!--<div class="">
+            <h2 class="font-weight-bold mb-2 mx-auto">Our Team</h2>
+        </div>
+        
+        <p></p>-->
+
+        <div class="row pb-5 mb-4">
+            <div class="col-12 text-center mx-auto">
+                <div class="text-center text-dark py-3 team-head">
+                    <h5 class="team-header contain-title">Our Team</h5>
+                </div>
+            </div>
+            <p></p>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0">
+                        <img src="images/team/team-1.png" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Digital Box</h5>
+                            <p class="small text-muted">CEO</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0">
+                        <img src="images/team/team-2.png" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Digital Box</h5>
+                            <p class="small text-muted">Assistant</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0">
+                        <img src="images/team/team-3.png" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Digital Box</h5>
+                            <p class="small text-muted">Designer</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0">
+                        <img src="images/team/team-4.png" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Digital Box</h5>
+                            <p class="small text-muted">Tester</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Contact Section ------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<section class="contact container-fluid active_menu pb-5 mt-5" id="contact">
+    <div class="container text-center text-md-left mt-n5">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="row first align-items-center justify-content-center pb-5">
+                <div class="col-12 text-center mx-auto">
+                    <div class="text-center text-dark head">
+                        <h5 class="contain-title">Contact Us</h5>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-lg-12">
+                <div class="head text-center text-dark pb-5">
+                    <h3 class="contain-title">Contact Us</h3>
+                </div>
+            </div>-->
+            <div class="col-lg-4 text-center mx-auto pb-5 content">
+                <p class="contain-context">If you have any questions or queries a member of staff will 
+                    always be happy to help. Feel free to contact us by telephone or email and we will be sure to get back to you as soon as possible.</p>
+                    <div class="row spacer-t"></div>
+            </div>
+            
+            <div class="col-lg-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form p-3" >
+                            <div class="form-row my-5">
+                                <div class="col-lg-12 in-div">
+                                    <input type="text" class="effect-1" placeholder="First Name">
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pb-4">
+                                <div class="col-lg-12 in-div">
+                                    <input type="text" class="effect-1" placeholder="Email" id email>
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pt-5">
+                                <div class="col-lg-12 in-div">
+                                    <input type="text"  class="effect-1" placeholder="Your message">
+                                    <span class="Focus-border"></span>
+                                </div>
+                            </div>
+                            <div class="form-row pt-4 text-center text-md-left">
+                                <button class="btn btn-outline-success contain-title">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="row text-center text-md-left">
+            <div class="col-md-12 col-lg-3 col-xl-4 mx-auto mt-5 ">
+                <div class="mt-lg-5">
+                    <p class="icon-gap"><img src="images/mail-icon.svg"><strong>Email:</strong> contact@digitalbox.com.np</p>
+                </div>
+            </div>
+            
+
+            <div class="col-md-12 col-lg-3 col-xl-3 mx-auto mt-5">
+                <div class="mt-lg-5">
+                    <p class="icon-gap"><img src="images/phone-icon.svg"><strong>Phone:</strong> (+977) - 9851099589</p>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-3 col-xl-3 mx-auto mt-5">
+                <div class="mt-lg-5">
+                    <p class="icon-gap"><img src="images/address-icon.svg"><strong>Address:</strong> Shantinagar-31, Kathmandu, Nepal</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="row spacer-d"></div>
+</section>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------- Footer Section -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<footer class="bg-dark text-white footer">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-2 foot-contact">
+                <div class="foot-contact"></div>
+                <div class="col-1 foot-logo">
+                    <a href="#home"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <p><a class="navbar-brand" href="#home">DigitalBox</a></p>
+            </div>
+            
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 foot-contact text-start">
+                <h1 class="text-uppercase mb-4 font-weight-bold text-warning contain-title">links</h1>
+                <p>
+                    <a href="#home" class="text-white contain-context" style="text-decoration: none:">Home</a>
+                </p>
+                <p>
+                    <a href="#product" class="text-white contain-context" style="text-decoration: none:">Product</a>
+                </p>
+                <p>
+                    <a href="#about" class="text-white contain-context" style="text-decoration: none:">About Us</a>
+                </p>
+                <p>
+                    <a href="#contact" class="text-white contain-context" style="text-decoration: none:">Contact Us</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 foot-contact">
+                <h1 class="text-uppercase mb-4 font-weight-bold text-warning contain-title">Contact</h1>
+                <p class="contain-context">
+                    <i class="fas fa-home mr-3"></i>Shantinagar-31, Kathmandu, Nepal
+                </p>
+                <p class="contain-context">
+                    <i class="fas fa-phone mr-3"></i>9851099589, 01-4107660
+                </p>
+                <p class="contain-context">
+                    <i class="fas fa-envelope mr-3"></i>contact@digitalbox.com.np
+                </p>
+                <p class="contain-context">We are open: Sun-Sat: 10am-5pm</p>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="row align-items-center external-links">
+            <div class="col-md-7 col-lg-8 copyright">
+                <p>
+                    Copyright @2022 All right reserved by:
+                    <a href="#" style="text-decoration:none;">
+                        <strong class="company-name">Deotar tech</strong>
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm " style="font-size: 23px;"><i class="fab fa-facebook e-links"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm " style="font-size: 23px;"><i class="fab fa-twitter e-links"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm " style="font-size: 23px;"><i class="fab fa-google-plus e-links"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm " style="font-size: 23px;"><i class="fab fa-linkedin-in e-links"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm " style="font-size: 23px;"><i class="fab fa-youtube e-links"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- Javascript Links -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------------------------->
+<!-------------------------------------- Bootstrap Link ----------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!----------------------------------------------------------------------------------------------->
+<!-------------------------------------- Swiper Link -------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!----------------------------------------------------------------------------------------------->
+<!-------------------------------------- Isotope Link -------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!----------------------------------------------------------------------------------------------->
+<!--------------------------------- Javascript File Link ---------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script type="text/javascript" src="script.js"></script>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- End Section ---------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
